@@ -11,20 +11,20 @@ namespace Homework_06._12._2021
         public void Diff(int[] arr)
         {
             int sum3reqemli = 0;
-            int sum2reqemli = 0;
+            int sumdiger = 0;
             for (int i = 0; i < arr.Length; i++)
             {
                 if (arr[i] / 100 > 0 && arr[i] / 1000 == 0)
                 {
                     sum3reqemli += arr[i];
                 }
-                if (arr[i] / 10 > 0 && arr[i] / 100 == 0)
+                else 
                 {
-                    sum2reqemli += arr[i];
+                    sumdiger += arr[i];
                 }
                 
             }
-            Console.WriteLine(sum3reqemli - sum2reqemli);
+            Console.WriteLine(sum3reqemli - sumdiger);
 
         }
     }

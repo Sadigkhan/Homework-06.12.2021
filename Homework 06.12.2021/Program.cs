@@ -9,8 +9,8 @@ using Homework_06._12._2021;
 //s.Getmin(new[] { 3, 4, 5, 6, -1 });
 #endregion
 #region 3reqemli ve 2reqemli ferqi
-//Difference d = new Difference();
-//d.Diff(new[] { 123, 23, 453, 23 });
+Difference d = new Difference();
+d.Diff(new[] { 123, 23, 453, 23,1,2,3,4,5 });
 #endregion
 #region Cumledeki soz sayi
 //Word_counter w = new Word_counter();
@@ -30,9 +30,9 @@ using Homework_06._12._2021;
 //Console.WriteLine(s.Info());
 #endregion
 #region Array bolme
-Array_dividing_with_new_line a = new Array_dividing_with_new_line();
-int[] coxluq = { };
-a.Devide(coxluq);
+//Array_dividing_with_new_line a = new Array_dividing_with_new_line();
+//int[] coxluq = { };
+//a.Devide(coxluq);
 #endregion
 
 
